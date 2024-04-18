@@ -1,6 +1,6 @@
 public interface Worker {
-    public String Worker_Name();
-    public String Worker_Birth_Date();
-    public String Worker_ID();
-    public String Worker_Post();
+    public String getName();
+    public String getBirthDate();
+    public String getID();
+    public String getPost();
 }
