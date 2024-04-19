@@ -2,7 +2,7 @@ public class Products {
     private String Price;
     private String Product_Name;
 
-    private String Product_Code;
+    private int Product_Code;
 
     private String Expiration_Date;
 
@@ -10,7 +10,7 @@ public class Products {
 
     private String Corridor;
 
-    public Products(String price, String product_Name, String product_Code, String expiration_Date, String brand, String Corridor) {
+    public Products(String price, String product_Name, int product_Code, String expiration_Date, String brand, String Corridor) {
         this.Price = price;
         this.Product_Name = product_Name;
         this.Product_Code = product_Code;
@@ -31,7 +31,7 @@ public class Products {
         return Product_Name;
     }
 
-    public String getProduct_Code() {
+    public int getProduct_Code() {
         return Product_Code;
     }
 
@@ -51,7 +51,7 @@ public class Products {
         Product_Name = product_Name;
     }
 
-    public void setProduct_Code(String product_Code) {
+    public void setProduct_Code(int product_Code) {
         Product_Code = product_Code;
     }
 

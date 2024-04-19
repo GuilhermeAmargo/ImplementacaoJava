@@ -11,8 +11,8 @@ public class Worker1 implements Worker{
     }
 
     @Override
-    public String getID() {
-        return "03134";
+    public int getID() {
+        return 3134;
     }
 
     @Override
@@ -22,7 +22,7 @@ public class Worker1 implements Worker{
 
     @Override
     public String toString(){
-        return "Worker [Name=" + getName() + ", Birth Date=" + getBirthDate() + ", ID=" + getID() + ", Post=" + getPost() + "]";
+        return "Funcionário-1 [Nome=" + getName() + " Data de nascimento=" + getBirthDate() + " ID=" + getID() + " Cargo=" + getPost() + "]";
     }
 }
 
